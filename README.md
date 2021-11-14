@@ -1,0 +1,2 @@
+# bazel_integration_test_example
+Example demonstrating rules_bazel_integration_test usage.
