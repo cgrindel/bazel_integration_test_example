@@ -24,10 +24,10 @@ jobs:
       run: |
         bazelisk info
 
-    - name: Execute Tests
+    - name: Execute Build 
       shell: bash
       run: |
-        bazelisk test //... 
+        bazelisk build //... 
 
     - name: Execute Integration Tests
       shell: bash
