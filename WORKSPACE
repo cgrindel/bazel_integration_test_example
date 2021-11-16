@@ -1,5 +1,7 @@
 workspace(name = "cgrindel_bazel_integration_test_example")
 
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
 http_archive(
     name = "cgrindel_rules_bazel_integration_test",
     sha256 = "4fa679d98318df3e280e9c8b7f445cd06de7954aa0454702a62ebab8c820ce7e",
